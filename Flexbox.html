@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                background-color: aquamarine;
+                border-radius: 5px;
+                margin: 2px;
+                padding: 10px;
+            }
+            .flex-container{
+                display: flex;
+                justify-content:center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 10px;
+            }
+            .box3{
+                background-color: blanchedalmond;
+                align-self: center;
+            }
+
+            .flex-container2{
+                flex: 0 1 auto;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+ 
+                align-items: flex-end;
+                gap: 50px;
+            }
+            .box3{
+                background-color: blanchedalmond;
+                align-self: center;
+                flex: 1 1 auto;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h3>display:flex</h3>
+        <p>The seven flex containers will run form letf to right starting in the left corner</p>
+
+    <h3>justify-content</h3>
+        <p>Aligns the items on main axis.</p>
+
+    <h3>flex-wrap</h3>
+        <p>The default for this property is "nowrap", which means the item will span the entire width of axis.</p>
+        <p>When <strong>flex-wrap</strong> is set to <strong>wrap</strong> the items will be wrapped to the size of the available viewport.</p>
+    
+    <h3>flex-direction</h3>
+        <p>This property is used to set the main axis, which is "row" by default.<br>
+            It basically means you are changing your main axis from horizontal rows to vertical columns</p>
+
+    <h3>align-items</h3>
+        <p>It sets the alignment of the cross axis</p>
+
+    <h3>align-self</h3>
+        <p>It sets the alignment of individual item inside the flex.</p>
+
+    <h3>gap:</h3>
+        <p>The gap property can be used to create space between the items along the main axis.</p>
+        <p>You can also individually configure the gap in rows and columns using <strong>row-gap</strong> and <strong>column-gap</strong></p>
+    
+    <h3>flex</h3>
+        <p>The sub-properties ot <strong>flex</strong> are <strong>flex-grow</strong>, <strong>flex-shrink</strong> and flex-basis.<br>
+        Together these determine how the flex takes up space, grows or shrinks according the space available.</p>
+    <div class="flex-container">
+            <div class="box box1"> One..</div>
+            <div class="box box2"> Two..</div>
+            <div class="box box3"> Three..</div>
+            <div class="box box4"> Four..</div>
+            <div class="box box5"> Five..</div>
+            <div class="box box6"> Six..</div>
+            <div class="box box7"> Seven..</div>
+    </div>
+
+    <h3>Designed with the <strong>flex</strong> property:</h3>
+     <div class="flex-container2">
+            <div class="box box1"> One..</div>
+            <div class="box box2"> Two..</div>
+            <div class="box box3"> Three..</div>
+            <div class="box box4"> Four..</div>
+            <div class="box box5"> Five..</div>
+            <div class="box box6"> Six..</div>
+            <div class="box box7"> Seven..</div>
+    </div>
+    </body>
+</html>
