@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grids cheat sheet</title>
+    </head>
+    <body>
+        <a href="https://www.coursera.org/learn/html-and-css-in-depth/supplement/A76Uo/grids-and-flexbox-cheat-sheet">Coursera Grids Cheat Sheet</a>
+
+    <p>The syntax for creating a grid:</p>
+        <style>selector {
+            display: grid;
+        }</style>
+        selector
+    <h2>grid</h2>
+    <p>A grid will allow you organize the various elements on your page. </p>
+
+    <h2>grid-template-rows: none</h2>
+        <p>This feature allows you configure your elements so that they are organized similarly to rows on a table. </p>
+
+    <h2>grid-template-columns: none</h2>
+        <p>This feature allows you configure your elements but with this setting the elements are organized like columns on a table.</p>
+    
+    <h2>grid-template-areas: none</h2>
+        <p>This feature allows you configure the names of a grid and how they sit in relation to one another. </p>
+
+    <h2>grid-auto-rows: auto</h2>
+        <p>Default setting for all row sizes that have not been explicitly configured.</p>
+
+    <h2>grid-auto-columns: auto</h2>
+        <p>Default setting for all column sizes that have not been explicitly configured.</p>
+
+    <h2>grid-auto-flow: row</h2>
+        <p>Default location for rows that are not explicitly allocated. </p>
+
+    <h2>column-gap: normal</h2>
+        <p>This sets the gap between the columns.</p>
+
+    <h2>row-gap: normal</h2>
+        <p>This sets the gap between the rows. </p>
+
+    <h1>Grid properties for container</h1>
+    <h2>grid-template-columns: measurement units | % units |repeat() </h2>
+        <p>Defines the line names, and maintains a constant size of column items. Can accept a range of different measurement sizes.</p>
+
+    <h2>grid-template-rows: measurement units | % units |repeat()</h2>
+        <p>Defines the line names, and maintains a constant size of rows. Can accept a range of different measurement sizes.</p>
+
+    <h2>grid-auto-columns: measurement unit (fixed value for all columns)</h2>
+        <p>Determines the default size for columns that have not been explicitly configured.</p>
+
+    <h2>grid-auto-rows: measurement unit (fixed value for all rows)</h2>
+        <p>Determines the default size for rows that have not been explicitly configured.</p>
+
+    <h2>grid-template: “header header” auto</h2>
+        <p>This allows you define and maintain named cells on a grid </p>
+
+    <h2>“main right” 75vh</h2>
+        <p>This defines two cells named main and right, that have a sizing of 75% of the viewport height. </p>
+
+    <h2>“footer footer” 20rem</h2>
+        <p>This defines two cells named footer and footer, that have a sizing of 20 root em (rem). This defines the size in relation to the html font size.</p>
+
+    <h1>Gap</h1>
+    <h2>grid-gap: measurement units</h2>
+        <p>Determines the gap between rows and columns </p>
+
+    <h2>grid-column-gap: measurement units</h2>
+        <p>Determines the gap between columns</p>
+
+    <h2>grid-row-gap: m-unit-1  m-unit-2</h2>
+        <p>Determines the gap between columns.</p>
+    
+    <h1>Alignment</h1>
+    <h2>justify-items: start | center | end | stretch</h2>
+        <p>Defines the default space that is allot to each item on the grid.</p>
+    
+    <h2>align-items: start | center | end | stretch</h2>
+        <p>Defines the default space related to an item along the grid’s block axis</p>
+
+    <h2>place-items: start | stretch /* shorthand for two properties above */</h2>
+        <p>This feature allows you align items with  the block and inline directions.</p>
+
+    <h1>Justification</h1>
+    <h2>justify-content: start | center | end | stretch | space-between | space-evenly | space-around</h2>
+        <p>Defines browser allocation of space to content items in relation to the main-axis. </p>
+
+    <h2>align-content: start | center | end | stretch | space-between | space-evenly | space-around</h2>
+        <p>Defines browser allocation of space to content items in relation to cross axis and block axis.</p>
+
+    <h2>place-content: center | start</h2>
+        <p>This feature allows you align items with  the block and inline directions.</p>
+
+    <h1>Positioning</h1>
+    <h2>grid-auto-flow: row | column | dense</h2>
+        <p>This relates to how the items are placed automatically within the grid.</p>
+
+    <h2>grid-auto-columns: measurement units</h2>
+        <p>This relates to the size for columns created without specific size specifications.</p>
+
+    <h2>grid-auto-rows: measurement units</h2>
+        <p>This relates to the size for rows created without specific size specifications.</p>
+
+    <h1>Grid properties for items (child)</h1>
+    <h2>grid-column: column position /* E.g. 1/2  */</h2>
+        <p>Allows for specifying where on the grid the column is to start.</p>
+
+    <h2>grid-column-start: column start position</h2>
+        <p>This property determines the starting column position an item is placed on a grid.</p>
+
+    <h2>grid-column-end: column end position</h2>
+        <p>This property determines the end column position an item is placed on a grid.</p>
+
+    <h2>grid-row: row position /* E.g. 1/2  */</h2>
+        <p>Allows for specifying where on the grid the row is to start.</p>
+
+    <h2>grid-row-start: row start position</h2>
+        <p>This property determines the starting row position an item is placed on a grid.</p>
+
+    <h2>grid-row-end: row end position</h2>
+        <p>This property determines the end row position an item is placed on a grid.</p>
+
+    <h1>Justification and alignment</h1>
+    <h2>justify-self: start | center | end | stretch</h2>
+        <p>Determines how  an item is positioned inside its aligned container in relation to the appropriate axis.</p>
+
+    <h2>align-self: start | center | end | stretch</h2>
+        <p>Aligns an item within a grid area.</p>
+
+    <h2>place-self: start | stretch /* shorthand for two properties above */</h2>
+        <p>This setting lets one align and justify an item within a block.</p>
+    </body>
+</html>
