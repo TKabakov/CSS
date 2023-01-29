@@ -1,0 +1,16 @@
+li:hover {
+    background-color: blue;
+}
+
+input:focus{
+    background-color: red;
+}
+
+
+input:required {
+    background-color: red;
+}
+
+input:checked {
+    margin: 20px
+}
