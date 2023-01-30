@@ -1,0 +1,30 @@
+li:first-child {
+    color: blue
+}
+
+li:nth-child(3){
+    color: red
+}
+
+li:nth-child(3n-1){
+    background-color: blueviolet;
+}
+
+li:nth-last-child(2n){
+    background-color:blue;
+}
+
+span:only-child{
+    background-color: red;
+}
+
+div:first-of-type {
+    background-color: coral;
+}
+li:last-of-type{
+    background-color: greenyellow;
+}
+
+li:not(.red) {
+    background-color: yellow;
+}
