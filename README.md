@@ -1,3 +1,3 @@
 # CSS
 My CSS projects.
-Here I put CSS projects and practices during my education in the Meta course "HTML and CSS in depth".
+In this repository I put the CSS projects and practices which I done during my education in the Meta course "HTML and CSS in depth".
