@@ -143,4 +143,16 @@ footer div {
     margin: 0 2em;
 }
 
+.our-services, .book-service {
+    position: relative;
+}
 
+.service {
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+.book {
+    position: absolute;
+    bottom: 0.5rem;
+}
