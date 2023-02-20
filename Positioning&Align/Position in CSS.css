@@ -1,0 +1,33 @@
+.parent{
+    display: block;
+    height: 120px;
+    background-color: blue;
+    color:aquamarine;
+    position: relative;
+}
+
+.child-one {
+    background-color: green;
+    margin:10px;
+    position: relative;
+    left:10px;
+    top: 10px;
+    /* The elemnt is moved relative to its static (normal) position in the document flow */
+}
+
+.child-two {
+    background-color: red;
+    margin: 10px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+/* It is out of document flow and it is position relative to parent element */
+}
+
+.child-three {
+    background-color:yellow;
+    margin: 10px;
+    position: fixed;
+    top: 2px;
+    left:20px;
+}
