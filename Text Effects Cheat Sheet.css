@@ -1,0 +1,21 @@
+th, td{
+    border: 2px solid blue
+   }
+th {
+    text-decoration: underline black dotted 2px ;
+}
+.property {
+    font-weight: 800;
+}
+
+caption {
+    transform: rotate(0deg);
+}
+
+caption:hover {
+    transform: rotate(20deg);
+}
+
+caption {
+    transition: transform 4s;
+}
