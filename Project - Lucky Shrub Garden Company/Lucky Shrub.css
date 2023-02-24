@@ -73,15 +73,6 @@ footer {
     font-family: Georgia, serif;
 }
 
-h1:hover {
-    animation: promotion 4s linear;
-}
-
-@keyframes promotion {
-    30% {color:red};
-    60% {color:greenyellow};
-}
-
 .two-one {
     background-color: #00ffff;
     border-radius: 1rem;
@@ -189,6 +180,15 @@ h1 + p {
     0.3rem 0.3rem 0.3rem #81ff03,
     0.4rem 0.4rem 0.4rem #ce0004, 
     0.6rem 0.6rem 0.6rem #ce0004;
+}
+
+h1:hover {
+    animation: promotion 4s linear;
+}
+
+@keyframes promotion {
+    30% {color:red};
+    60% {color:greenyellow};
 }
 
 @media only screen and (max-width: 768px) {
