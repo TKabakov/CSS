@@ -103,6 +103,14 @@ h1:hover {
     grid-column: 3 / 4;
 }
 
+.logo {
+    width: 5%;
+}
+
+.footer-img {
+    width: 7%;
+}
+
 main h2{
     color:#3c3cff
 }
@@ -199,5 +207,13 @@ h1 + p {
     img ~ p {
         font-size: 1.2rem;
         text-shadow: none;
+    }
+
+    .logo {
+        width: 8%;
+    }
+    
+    .footer-img {
+        width: 10%;
     }
 }
