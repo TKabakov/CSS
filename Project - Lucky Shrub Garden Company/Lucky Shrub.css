@@ -179,3 +179,22 @@ footer p {
     0.4rem 0.4rem 0.4rem #ce0004, 
     0.6rem 0.6rem 0.6rem #ce0004;
 }
+
+@media only screen and (max-width: 768px) {
+    .two-one {
+        grid-column: 1 / 4;
+    }
+    
+    .two-two {
+        grid-column: 1 / 4;
+    }
+    
+    .two-three {
+        grid-column: 1 / 4;
+  }
+
+    img ~ p {
+        font-size: 1.2rem;
+        text-shadow: none;
+    }
+}
