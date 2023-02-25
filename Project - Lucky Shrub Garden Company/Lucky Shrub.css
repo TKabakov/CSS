@@ -159,15 +159,11 @@ footer div {
 footer p {
     text-align: right;
     border-top: #3c3cff;
-    border-style: solid;
+    border-style: solid none none;
     border-width: 0.145rem;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
     font-family: Georgia, serif;
     color: #3c3cff;
     margin-top: 0.5rem;
-}
 
 h1 + p {
     color: yellow;
