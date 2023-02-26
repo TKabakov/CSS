@@ -1,0 +1,16 @@
+body {
+    background-image: url("balloons4.jpg");
+
+    /* Set "paper.gif" as the background image of the page. */
+    background-repeat: repeat-y;
+
+    /* Make the background image repeat only vertically. */
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    /* Specify that the background image should be shown once, in the top right corner. */
+
+    background-attachment: fixed;
+
+    /* Use the correct background property to make the background image NOT scroll with the rest of the page. */
+}
