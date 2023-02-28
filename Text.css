@@ -2,6 +2,7 @@ p {
     color:red;
     text-align: center;
     text-transform: capitalize;
+    text-intend: 20px;
   }
 
   a {
