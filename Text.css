@@ -1,0 +1,13 @@
+p {
+    color:red;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    text-transform:uppercase ;
+  }
