@@ -1,8 +1,8 @@
-h1 {  padding-top: 30px;
+.padding h1 {  padding-top: 30px;
 }
 
-h2 { padding-top: 30px;
+.padding h2 { padding: 30px;
     }
 
-h3 { padding: 40px 10px;
+.padding h3 { padding: 40px 10px;
     }
