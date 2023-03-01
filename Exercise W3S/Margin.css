@@ -1,15 +1,19 @@
-h1 { 
+.margin {
+  width: 300px;
+}
+
+.margin h1 { 
 margin-left: 20px;
 }
 
-h2 {
+.margin h2 {
     margin: 20px 40px;
   }
 
-  h3 {
+.margin h3 {
     margin: 20px 15px 25px 10px;
   }
 
-  p {
-        margin: auto;
+.margin p {
+        margin: 0 auto;
   }
