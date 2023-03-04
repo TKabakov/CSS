@@ -7,3 +7,11 @@
   list-style-image: url('blink.png');
   color:blue;
     }
+
+  .list3 li {
+    list-style-type: none;
+    }
+   
+ .list4 li {
+  list-style-type: upper-roman;
+      }
