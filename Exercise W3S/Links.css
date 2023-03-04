@@ -1,0 +1,19 @@
+.links a {
+ color: red;
+}
+
+a:hover{
+  background-color: green;
+  text-decoration: underline;
+}
+
+
+a:visited
+ {
+  background-color: blue;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link
+ {text-decoration: none;}
