@@ -4,6 +4,10 @@
     width: 100%;
   }
   
+  tr:hover {
+    background-color: red;
+  }
+
   #customers td, #customers th {
     border: 1px solid #ddd;
     
@@ -11,9 +15,11 @@
     padding: 8px;
   }
   
+  /* For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows: */
   #customers tr:nth-child(even){background-color: #f2f2f2;}
   
-  #customers tr:hover {background-color: #ddd;}
+   /* Use the :hover selector on <tr> to highlight table rows on mouse over: */
+  #customers tr:hover {background-color: #5a5ad0;}
   
   #customers th {
     padding-top: 12px;
@@ -22,3 +28,7 @@
     background-color: #04AA6D;
     color: white;
   }
+
+
+
+ 
