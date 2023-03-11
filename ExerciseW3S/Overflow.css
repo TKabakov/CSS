@@ -1,0 +1,16 @@
+div {
+    width: 200px;
+    height: 100px;
+    border: 2px solid brown
+}
+
+.intro {
+    overflow: scroll;
+    color: red;
+  }
+
+.intro2 {
+    overflow: hidden;
+}
+
+    
