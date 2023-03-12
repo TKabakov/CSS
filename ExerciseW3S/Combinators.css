@@ -1,0 +1,23 @@
+
+div p
+ {
+  color: red;
+}
+
+div ~ p
+ {
+  color: greenyellow;
+}
+
+.one > p
+ {
+  color: blue;
+}
+
+
+.two + p
+ {
+  color: green;
+}
+
+
