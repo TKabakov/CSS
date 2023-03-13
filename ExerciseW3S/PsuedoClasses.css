@@ -7,14 +7,27 @@ a:hover {
 }
 
 /*
-Set the background-color to red, when you mouse over elements with the class "master".
+Set the background-color to blue, when you mouse over elements with the class "master".
 */
 
 .master:hover {
     background-color: blue;
+    color: white;
 }
 
 /*
 Set the background-color to red, of any <p> element that are the first child of any element.
 */
 
+p:first-child {
+    background-color: green;
+}
+
+/*
+Set the background-color to red, of any <input> element that are in focus.
+*/
+
+input:focus {
+    background-color: yellow;
+    color: red;
+}
