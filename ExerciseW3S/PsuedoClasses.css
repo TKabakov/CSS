@@ -1,0 +1,20 @@
+/*
+Set the background-color to red, when you mouse over a link.
+*/
+
+a:hover {
+    background-color: red;
+}
+
+/*
+Set the background-color to red, when you mouse over elements with the class "master".
+*/
+
+.master:hover {
+    background-color: blue;
+}
+
+/*
+Set the background-color to red, of any <p> element that are the first child of any element.
+*/
+
