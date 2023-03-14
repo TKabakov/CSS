@@ -1,0 +1,29 @@
+/*
+Set the background-color to red, of the first line of the paragraph.
+*/
+
+.intro::first-line {
+    background-color: red;
+}
+
+/*
+Set the color to blue, for the first letter of the <p> element.
+*/
+
+.intro::first-letter {
+    color: blue;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/*
+Insert the image "smiley.gif" before, and after any <p>element, using the ::before and ::after pseudo-elements.
+*/
+
+.para::before {
+    content:url("https://tenor.com/bg/view/hasher-happy-sticker-gif-24532071");
+}
+
+.para::after {
+    content:url("https://tenor.com/bg/view/hasher-happy-sticker-gif-24532071");
+}
