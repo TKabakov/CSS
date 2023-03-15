@@ -1,0 +1,15 @@
+/*
+Use CSS to set the transparency of the image to 50%.
+*/
+
+img {
+    opacity: 0.5;
+}
+
+/*
+Use CSS to "remove" the transparency of the image when the user mouse over the image.
+*/
+
+img:hover {
+    opacity: 1.0;
+}
