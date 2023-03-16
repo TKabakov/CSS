@@ -1,0 +1,33 @@
+div {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/*
+Give the div element rounded corners.
+*/
+
+.one {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+/*
+Give the div element a rounded corner on the bottom left side.
+*/
+
+.two {
+    background-color: red;
+    border-bottom-left-radius: 20px;
+}
+
+/*
+You could also create elliptical corners:
+*/
+
+.three {
+    background-color: yellow;
+    border-radius: 20px /100px;
+    height: 10rem;
+}
