@@ -1,0 +1,7 @@
+/*
+Add two background images to the <body> element:
+*/
+
+.one {
+    background-image:  url("../Project - Hair Day Salon/image section 1.jpg"),  url("../Project - Hair Day Salon/image section 2 article 2.jpg");
+}
