@@ -66,7 +66,7 @@ footer {
     height: 10rem;
     grid-column: 1 / 4;
     border-radius: 1rem;
-    background-image: url("./pics/garden-nursery-1200x625.jpg");
+    background-image: url("article one.jpg");
     background-size: cover;
     margin: 0;
     padding: 1rem;
@@ -164,6 +164,7 @@ footer p {
     font-family: Georgia, serif;
     color: #3c3cff;
     margin-top: 0.5rem;
+}
 
 h1 + p {
     color: yellow;
