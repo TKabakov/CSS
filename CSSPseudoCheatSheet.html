@@ -103,7 +103,7 @@
             <tr>
                 <th>Elements</th> 
                 <th>Syntax</th> 
-                <th>Example</th> 
+                <th class="description">Description</th> 
             </tr>
             <tr>
                 <td>[attribute]</td>
@@ -124,7 +124,6 @@
                 <td>[attribute|=value]</td>
                 <td>[lang|=en] {}</td>
                 <td>Elements with lang attribute value equal to "en" or "en-"(en hyphen)</td>
-                <td></td>
             </tr>
             <tr>
                 <td>[attribute^=value]</td>
@@ -141,18 +140,13 @@
                 <td>a[href*="meta"] {}</td>
                 <td>Every <a> element with href attribute value has substring "meta"</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
         </table>
         <table>
             <caption>Pseudo Classes</caption>
             <tr>
                 <th>Pseudo-class</th>
                 <th>Example</th>
-                <th>Description of selection</th>
+                <th class="description">Description</th>
             </tr>
             <tr>
                 <td>:active</td>
@@ -191,8 +185,8 @@
             </tr>
             <tr>
                 <td>:first-of-type</td>
-                <td>p:\first-of-type { }</td>
-                <td>All the <b>p</b> element who are the first <p> element of a parent element</td>
+                <td>p:first-of-type { }</td>
+                <td>All the <b>p</b> element who are the first <b>p</b> element of a parent element</td>
             </tr>
             <tr>
                 <td>:focus</td>
@@ -206,7 +200,7 @@
             </tr>
             <tr>
                 <td>:hover</td>
-                <td>p:\hover { }</td>
+                <td>p:hover { }</td>
                 <td>Action effect on mouse hover</td>
             </tr>
             <tr>
@@ -216,17 +210,17 @@
             </tr>
             <tr>
                 <td>:last-child</td>
-                <td>p:\last-child { }</td>
+                <td>p:last-child { }</td>
                 <td>All the <b>p</b> elements who are the last child of a parent element</td>
             </tr>
             <tr>
                 <td>:last-of-type</td>
-                <td>p:\last-of-type { }</td>
+                <td>p:last-of-type { }</td>
                 <td>All the <b>p</b> elements who are the last <b>p</b> element of a parent element</td>
             </tr>
             <tr>
                 <td>:link</td>
-                <td>a:\link { }</td>
+                <td>a:link { }</td>
                 <td>All unvisited links</td>
             </tr>
             <tr>
@@ -252,12 +246,12 @@
             </tr>
             <tr>
                 <td>:nth-of-type(n)</td>
-                <td>p:\nth-of-type(2) { }</td>
+                <td>p:nth-of-type(2) { }</td>
                 <td>The second sibling of a parent element.</td>
             </tr>
             <tr>
                 <td>:only-of-type</td>
-                <td>p:\only-of-type { }</td>
+                <td>p:only-of-type { }</td>
                 <td>All the <b>p</b> elements which are only <b>p</b> elements inside its parent</td>
             </tr>
             <tr>
@@ -292,10 +286,47 @@
             </tr>
             <tr>
                 <td>:visited</td>
-                <td>a:\visited { }</td>
+                <td>a:visited { }</td>
                 <td>Selects all visited links</td>
             </tr>            
         </table>
-
+        <table>
+            <caption>Pseudo-element selectors</caption>
+            <tr>
+                <th>Syntax</th>
+                <th>Example</th>
+                <th class="description">Description</th>
+            </tr>
+            <tr>
+                <td>::after</td>
+                <td>p::after { }</td>
+                <td>Inserts content after content of <b>p</b> element</td>
+            </tr>
+            <tr>
+                <td>::before</td>
+                <td>p::before { }</td>
+                <td>Inserts content before content of <b>p</b> element</td>
+            </tr>
+            <tr>
+                <td>::first-letter</td>
+                <td>p::first-letter { }</td>
+                <td>Selects first letter of every <b>p</b> element</td>
+            </tr>
+            <tr>
+                <td>::first-line</td>
+                <td>p::first-line { }</td>
+                <td>Selects first line of every <b>p</b> element</td>
+            </tr>
+            <tr>
+                <td>::placeholder</td>
+                <td>input::placeholder { }</td>
+                <td>Selects input elements with "placeholder" attribute specified</td>
+            </tr>
+            <tr>
+                <td>::marker</td>
+                <td>::marker { }</td>
+                <td>Selects markers in a list</td>
+            </tr>
+        </table>
     </body>
 </html>
