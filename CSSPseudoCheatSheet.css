@@ -1,11 +1,18 @@
+
 table {
+    width: 100%;
     border: 2px solid blue;
     border-collapse: collapse;
 }
 
 th, td {
+    width: 20%;
     border: 1px solid blue;
     border-collapse: collapse;
+}
+
+.description{
+    width: 40%;
 }
 
 tr:nth-child(even){
