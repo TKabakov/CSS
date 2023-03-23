@@ -1,6 +1,7 @@
 
 table {
-    width: 100%;
+    margin: 1rem;
+    width: 95%;
     border: 2px solid blue;
     border-collapse: collapse;
 }
@@ -9,6 +10,12 @@ th, td {
     width: 20%;
     border: 1px solid blue;
     border-collapse: collapse;
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
 }
 
 .description{

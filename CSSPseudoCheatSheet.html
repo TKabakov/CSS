@@ -98,5 +98,204 @@
                 <td>All <b>p</b> element iterations after <b>div</b></td>
             </tr>
         </table>
+        <table>
+            <caption>Attribute selectors</caption>
+            <tr>
+                <th>Elements</th> 
+                <th>Syntax</th> 
+                <th>Example</th> 
+            </tr>
+            <tr>
+                <td>[attribute]</td>
+                <td>[href] {}</td>
+                <td>Selects all elements with a href attribute</td>
+            </tr>          
+            <tr>
+                <td>[attribute=value]</td>
+                <td>[lang="fr"] { }</td>
+                <td>Selects all elements with lang attribute that has a value of "fr"</td>
+            </tr>            
+            <tr>
+                <td>[attribute~=value]</td>
+                <td>[input~=hello] {}</td>
+                <td>Elements with input attribute containing the whitespace separated substring "hello"</td>
+            </tr>            
+            <tr>
+                <td>[attribute|=value]</td>
+                <td>[lang|=en] {}</td>
+                <td>Elements with lang attribute value equal to "en" or "en-"(en hyphen)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>[attribute^=value]</td>
+                <td>a[href^="https"] {}</td>
+                <td>Every <b>a</b> element with href attribute value begins with "https"</td>
+            </tr>
+            <tr>
+                <td>[attribute$=value]</td>
+                <td>a[href$=".docx"] {}</td>
+                <td>Every <b>a</b> element with href attribute value ends with ".docx"</td>
+            </tr>
+            <tr>
+                <td>[attribute*=value]</td>
+                <td>a[href*="meta"] {}</td>
+                <td>Every <a> element with href attribute value has substring "meta"</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table>
+            <caption>Pseudo Classes</caption>
+            <tr>
+                <th>Pseudo-class</th>
+                <th>Example</th>
+                <th>Description of selection</th>
+            </tr>
+            <tr>
+                <td>:active</td>
+                <td>a:\active { }</td>
+                <td>All active links </td>
+            </tr>
+            <tr>
+                <td>:checked</td>
+                <td>checked { }</td>
+                <td>All the checked <b>input</b> elements</td>
+            </tr>
+            <tr>
+                <td>:default</td>
+                <td>default { }</td>
+                <td>All default <b>input</b> elements</td>
+            </tr>
+            <tr>
+                <td>:disabled</td>
+                <td>disabled { }</td>
+                <td>All disabled <b>input</b> elements</td>
+            </tr>
+            <tr>
+                <td>:empty</td>
+                <td>empty { }</td>
+                <td>All the <b>div</b> elements with no children</td>
+            </tr>
+            <tr>
+                <td>:enabled</td>
+                <td>enabled { }</td>
+                <td>All the enabled <b>input</b> elements</td>
+            </tr>
+            <tr>
+                <td>:first-child</td>
+                <td>p:first-child { }</td>
+                <td>All the <b>p</b> elements who are the first child of a parent element</td>
+            </tr>
+            <tr>
+                <td>:first-of-type</td>
+                <td>p:\first-of-type { }</td>
+                <td>All the <b>p</b> element who are the first <p> element of a parent element</td>
+            </tr>
+            <tr>
+                <td>:focus</td>
+                <td>focus { }</td>
+                <td>Input element under focus</td>
+            </tr>
+            <tr>
+                <td>:fullscreen</td>
+                <td>:fullscreen { }</td>
+                <td>The element in full-screen mode</td>
+            </tr>
+            <tr>
+                <td>:hover</td>
+                <td>p:\hover { }</td>
+                <td>Action effect on mouse hover</td>
+            </tr>
+            <tr>
+                <td>:invalid</td>
+                <td>invalid { }</td>
+                <td>Input elements with an invalid value</td>
+            </tr>
+            <tr>
+                <td>:last-child</td>
+                <td>p:\last-child { }</td>
+                <td>All the <b>p</b> elements who are the last child of a parent element</td>
+            </tr>
+            <tr>
+                <td>:last-of-type</td>
+                <td>p:\last-of-type { }</td>
+                <td>All the <b>p</b> elements who are the last <b>p</b> element of a parent element</td>
+            </tr>
+            <tr>
+                <td>:link</td>
+                <td>a:\link { }</td>
+                <td>All unvisited links</td>
+            </tr>
+            <tr>
+                <td>:not(selector)</td>
+                <td>:not(div) { }</td>
+                <td>All the elements that are not a <b>div</b> element</td>
+            </tr>
+            <tr>
+                <td>:nth-child(n)</td>
+                <td>nth-child(3) { }</td>
+                <td>All the <b>p</b> elements that are the third child of a parent element</td>
+            </tr>
+            <tr>
+                <td>:nth-last-child(n)</td>
+                <td>div:nth-last-child(3) { }</td>
+                <td>All the <b>div</b> elements which are the third child of a parent element, counting from last child element
+                </td>
+            </tr>
+            <tr>
+                <td>:nth-last-of-type(n)</td>
+                <td>p:nth-last-of-type(2) { }</td>
+                <td>The second sibling from the last child of a parent element.</td>
+            </tr>
+            <tr>
+                <td>:nth-of-type(n)</td>
+                <td>p:\nth-of-type(2) { }</td>
+                <td>The second sibling of a parent element.</td>
+            </tr>
+            <tr>
+                <td>:only-of-type</td>
+                <td>p:\only-of-type { }</td>
+                <td>All the <b>p</b> elements which are only <b>p</b> elements inside its parent</td>
+            </tr>
+            <tr>
+                <td>:only-child</td>
+                <td>p:only-child { }</td>
+                <td>All the <b>p</b> elements which are only child of a parent element</td>
+            </tr>
+            <tr>
+                <td>:optional</td>
+                <td>optional { }</td>
+                <td>The input elements with no "required" attribute</td>
+            </tr>
+            <tr>
+                <td>:required</td>
+                <td>required { }</td>
+                <td>Selects input elements with the "required" attribute specified</td>
+            </tr>
+            <tr>
+                <td>:root</td>
+                <td>:root { }</td>
+                <td>The Root element of document</td>
+            </tr>
+            <tr>
+                <td>::selection</td>
+                <td>::selection { }</td>
+                <td>The portion of an element that is selected by a user</td>
+            </tr>
+            <tr>
+                <td>:valid</td>
+                <td>valid { }</td>
+                <td>All the input elements with a valid value</td>
+            </tr>
+            <tr>
+                <td>:visited</td>
+                <td>a:\visited { }</td>
+                <td>Selects all visited links</td>
+            </tr>            
+        </table>
+
     </body>
 </html>
