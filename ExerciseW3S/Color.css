@@ -1,0 +1,17 @@
+/*
+Insert the RGBA color value for a full red background color of the <h1> element, with no transparency.
+*/
+
+h1 {
+    background-color: rgba(255, 0, 0, 100%);
+}
+
+/*
+Use hue, saturation and lightness to set a background color of the <h1> element.
+
+Set the hue to red, saturation to 100%, and lightness to 50%.
+*/
+
+h2 {
+    background-color: hsl(0, 100%, 50%);
+}
