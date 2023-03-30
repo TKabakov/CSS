@@ -13,5 +13,22 @@ Set the hue to red, saturation to 100%, and lightness to 50%.
 */
 
 h2 {
-    background-color: hsl(0, 100%, 50%);
+    color: hsl(0, 100%, 50%);
+}
+
+/*
+There is also a method where we can specify the alpha channel as well as hue, saturation, and lightness, what is the name of this method?
+*/
+
+h3 {
+    background-color: hsla(0,100%, 50%, 0.3);
+}
+
+/*
+We can set the transparence for the whole element, not only the background, by using which CSS property?
+*/
+
+p {
+    background-color: rgb(0, 255, 0);
+    opacity: 0.3;
 }
